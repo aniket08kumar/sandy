@@ -1,0 +1,172 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    background-image: url(/visualcode/home.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.alpha{
+    /* text-align: center; */
+    background-color:rgb(27, 12, 20);
+    display: flex;
+    justify-content: space-between;
+
+}
+.alpha ul{
+     /* display: inline-flex; */
+     list-style-type: none;
+     color: rgb(17, 13, 8);
+     /* float:left; */
+}
+.alpha ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+.alpha ul li a{
+    text-decoration: none;
+    color: rgb(238, 132, 132); 
+
+}
+.alpha ul li:hover
+
+{
+background-color: rgb(26, 107, 107);
+border-radius: 3px;
+}
+
+.alpha .fa{
+    margin:auto;
+}
+
+.drop
+{
+    display: none;
+}
+.login{
+    float: right;
+    padding: 45px;
+}
+
+.alpha ul li:hover .drop{
+    display: block;
+    position: absolute;
+    background-color: aquamarine;
+    margin-top: 15px;
+    margin-left: -15px; 
+}
+
+.alpha ul li:hover .drop ul{
+    display: block;
+    margin: 10px;
+
+}
+.alpha ul li:hover .drop ul li{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted goldenrod;
+border-radius: 0;
+text-align: left;
+}
+.alpha ul li:hover .drop ul li:last-child{
+    border-bottom: none;
+}
+.alpha ul li:hover .drop ul li a:hover{
+    color: rgb(4, 0, 8);
+
+}
+.nav-right{
+    display: flex;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #country{
+      width: 50%;
+      border: 2px solid rgb(143, 82, 12);
+      border-radius: 14px;
+      
+
+  }
+  .text {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+ .input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+ .input[type=button]:hover{
+     color: aqua;
+     background-color: azure;
+ }
+
+
+
+ 
+
+  
+
+
+
+
+    
+
+
